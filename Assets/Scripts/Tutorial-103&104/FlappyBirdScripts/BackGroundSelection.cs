@@ -36,4 +36,9 @@ Day.SetActive(false);
 
 BGCanvas.enabled = false;
 }
+
+public void Exit()
+{
+    Application.Quit();
+}
 }
